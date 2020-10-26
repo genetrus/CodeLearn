@@ -1,10 +1,8 @@
 package codewars;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.stream.IntStream;
 
-public class LeftEqualsRight {
+public class equalSides {
 
     public static int findEvenIndex(int[] arr) {
         return IntStream.range(0, arr.length)
