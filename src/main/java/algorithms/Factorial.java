@@ -1,8 +1,8 @@
 package algorithms;
 
-public class factorial {
+public class Factorial {
 
-    public static int getFactorial(int n) {
+    public double getFactorial(int n) {
         return n > 1 ? n * getFactorial(n - 1) : n;
     }
 }

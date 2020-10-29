@@ -4,10 +4,10 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class absoluteValueTest {
+public class AbsoluteValueTest {
 
     @Test
     public void testGetAbsoluteValue() {
-        assertEquals(3, absoluteValue.getAbsoluteValue(-3));
+        assertEquals(3, AbsoluteValue.getAbsoluteValue(-3));
     }
 }
