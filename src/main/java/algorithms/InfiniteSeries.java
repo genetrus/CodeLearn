@@ -2,7 +2,7 @@ package algorithms;
 
 public class InfiniteSeries {
 
-    public static double calcSum(int x, int n) {
+    public double calcSum(int x, int n) {
         Factorial factorial = new Factorial();
         if (n == 0) {
             return 1;
