@@ -1,9 +1,8 @@
 package codewars;
 
-import java.util.HashMap;
-import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
-public class isogram {
+public class Isogram {
 
     /*public static boolean isIsogram(String str) {
         boolean isogram = true;
@@ -44,11 +43,20 @@ public class isogram {
         return result;
     }*/
 
-    public static boolean  isIsogram(String str) {
+    public boolean  isIsogram(String str) {
         return str.length() == str.toLowerCase()
                 .chars()
                 .distinct()
                 .count();
+    }
+
+    public String getIsogram(String... strings) {
+        return String.join("", strings)
+                .chars()
+                .mapToObj(c -> String.valueOf(new char[]{(char)c}))
+                .distinct()
+                .sorted()
+                .collect(Collectors.joining());
     }
 
     /*public static boolean  isIsogram(String str) {
