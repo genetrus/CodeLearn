@@ -4,10 +4,10 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class summRangeTest {
+public class SummRangeTest {
 
     @Test
     public void getSumm() {
-        assertEquals(39, summRange.getSumm(4, 9));
+        assertEquals(39, SummRange.getSumm(4, 9));
     }
 }

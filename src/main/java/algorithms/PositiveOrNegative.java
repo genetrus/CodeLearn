@@ -1,6 +1,6 @@
 package algorithms;
 
-public class positiveOrNegative {
+public class PositiveOrNegative {
 
     public static boolean isPositive(int num) {
         return num > 0;

@@ -1,6 +1,6 @@
 package algorithms;
 
-public class twodigitNumbers {
+public class TwodigitNumbers {
     public static int[] printFrom(int firstTwoDigit) {
         int lastTwoDigit = 99;
         int[] twoDigitN = new int[lastTwoDigit - firstTwoDigit +1];

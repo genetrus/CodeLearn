@@ -1,6 +1,6 @@
 package algorithms;
 
-public class exponentiationAlgoritm {
+public class ExponentiationAlgoritm {
     public static int getPowerOf(int num) {
         int result = 0;
         int length = num;
