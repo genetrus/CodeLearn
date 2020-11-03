@@ -1,4 +1,4 @@
-package algorithms;
+package codewars;
 
 import java.util.stream.IntStream;
 
