@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class tenMinWalkTest {
+public class TenMinWalkTest {
     @Test
     public void testTenMinWalk() {
         assertTrue("Should return true", TenMinWalk.isValid(new char[] {'n','s','n','s','n','s','n','s','n','s'}));

@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class summPosNumTest {
+public class SummPosNumTest {
 
     @Test
     public void testSum() {

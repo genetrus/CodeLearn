@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class highestScoringWordTest {
+public class HighestScoringWordTest {
     @Test
     public void sampleTests() {
         assertEquals("taxi", HighestScoringWord.high("man i need a taxi up to ubud"));

@@ -3,7 +3,7 @@ package codewars;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-public class numberToStringTest {
+public class NumberToStringTest {
 
     @Test
     public void testNumberToString() {

@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class sortOddNumbersTest {
+public class SortOddNumbersTest {
 
     @Test
     public void testSortArray1() {

@@ -3,7 +3,7 @@ package codewars;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class prodFibTest {
+public class ProdFibTest {
     @Test
     public void test1() {
         long[] r = new long[] {55, 89, 1};
