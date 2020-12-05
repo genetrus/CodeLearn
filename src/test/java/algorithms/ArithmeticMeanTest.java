@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class arithmeticMeanTest {
+public class ArithmeticMeanTest {
 
     @Test
     public void testMean() {

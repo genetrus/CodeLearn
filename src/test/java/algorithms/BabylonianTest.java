@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class babylonianTest {
+public class BabylonianTest {
 
     @Test
     public void compute() {

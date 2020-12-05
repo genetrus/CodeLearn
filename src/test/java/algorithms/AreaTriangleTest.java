@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class areaTriangleTest {
+public class AreaTriangleTest {
 
     @Test
     public void computeArea() {
