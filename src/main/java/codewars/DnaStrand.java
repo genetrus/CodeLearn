@@ -3,7 +3,7 @@ package codewars;
 import java.util.HashMap;
 import java.util.stream.Collectors;
 
-public class dnaStrand {
+public class DnaStrand {
     /*public static String makeComplement(String dna) {
         char[] dnaChars = dna.toCharArray();
         for (int index = 0; index < dna.length(); index++) {

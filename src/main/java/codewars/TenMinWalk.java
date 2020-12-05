@@ -1,6 +1,6 @@
 package codewars;
 
-public class tenMinWalk {
+public class TenMinWalk {
 
     public static boolean isReturnHome(char[] walk) {
         int north = 0;

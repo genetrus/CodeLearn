@@ -2,7 +2,7 @@ package codewars;
 
 import java.util.stream.IntStream;
 
-public class equalSides {
+public class EqualSides {
 
     public static int findEvenIndex(int[] arr) {
         return IntStream.range(0, arr.length)

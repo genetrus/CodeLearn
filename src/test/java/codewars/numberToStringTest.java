@@ -7,6 +7,6 @@ public class numberToStringTest {
 
     @Test
     public void testNumberToString() {
-        assertEquals("67", numberToString.getString(67));
+        assertEquals("67", NumberToString.getString(67));
     }
 }

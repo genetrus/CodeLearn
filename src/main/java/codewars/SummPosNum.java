@@ -1,6 +1,6 @@
 package codewars;
 
-public class summPosNum {
+public class SummPosNum {
 
     public static int sum(int[] arr) {
         /*int sum = 0;

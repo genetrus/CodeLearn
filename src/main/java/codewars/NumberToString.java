@@ -1,6 +1,6 @@
 package codewars;
 
-public class numberToString {
+public class NumberToString {
     public static String getString(int num) {
         //return Integer.toString(num);
         return String.valueOf(num);

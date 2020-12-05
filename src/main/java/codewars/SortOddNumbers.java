@@ -3,7 +3,7 @@ package codewars;
 import java.util.PrimitiveIterator.OfInt;
 import java.util.stream.IntStream;
 
-public class sortOddNumbers {
+public class SortOddNumbers {
 
     /*public static int[] evenArr;
     public static int[] oddArr;
@@ -89,7 +89,7 @@ public class sortOddNumbers {
     }
     public static int[] sortArray(int[] arr) {
         OfInt sortedOdds = IntStream.of(arr)
-                .filter(sortOddNumbers::isOdd)
+                .filter(SortOddNumbers::isOdd)
                 .sorted().iterator();
         return IntStream.of(arr)
                 .map(num -> num % 2 == 0 ? num : sortedOdds.nextInt())

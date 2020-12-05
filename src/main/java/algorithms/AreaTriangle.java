@@ -1,6 +1,6 @@
 package algorithms;
 
-public class areaTriangle {
+public class AreaTriangle {
     public static double compute(double side1, double side2, double side3) {
         double semiPerimeter;
         double area;

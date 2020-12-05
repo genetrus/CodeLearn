@@ -1,6 +1,6 @@
 package algorithms;
 
-public class amountAndSum {
+public class AmountAndSum {
     // sdn - single-digit number
     public static int computeAmountSdnUntil(int sumExceed) {
         int getAmount = 1;

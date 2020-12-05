@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class highestScoringWord {
+public class HighestScoringWord {
 
     //private static HashMap<Character, Integer> map = new HashMap<>();
     //private static HashMap<Integer, String> map2 = new HashMap<>();

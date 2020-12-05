@@ -1,6 +1,6 @@
 package algorithms;
 
-public class babylonian {
+public class Babylonian {
 
     public static double squareRoot(int num) {
         double guess = num / 2.0d;

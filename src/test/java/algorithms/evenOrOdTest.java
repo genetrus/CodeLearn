@@ -8,7 +8,7 @@ public class evenOrOdTest {
 
     @Test
     public void isEven() {
-        assertEquals(true, evenOrOd.isEven(20));
-        assertEquals(false, evenOrOd.isEven(13));
+        assertEquals(true, EvenOrOd.isEven(20));
+        assertEquals(false, EvenOrOd.isEven(13));
     }
 }

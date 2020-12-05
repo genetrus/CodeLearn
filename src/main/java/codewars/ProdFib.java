@@ -1,6 +1,6 @@
 package codewars;
 
-public class prodFib {
+public class ProdFib {
 
     public static long[] productFib(long prod) {
         int j = 0;

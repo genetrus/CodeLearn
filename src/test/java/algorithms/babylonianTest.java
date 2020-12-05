@@ -8,8 +8,8 @@ public class babylonianTest {
 
     @Test
     public void compute() {
-        assertEquals(2.0d, babylonian.squareRoot(4), 0.1d);
-        assertEquals(2.5d, babylonian.squareRoot(6), 0.1d);
-        assertEquals(80.9d, babylonian.squareRoot(6547), 0.1d);
+        assertEquals(2.0d, Babylonian.squareRoot(4), 0.1d);
+        assertEquals(2.5d, Babylonian.squareRoot(6), 0.1d);
+        assertEquals(80.9d, Babylonian.squareRoot(6547), 0.1d);
     }
 }
