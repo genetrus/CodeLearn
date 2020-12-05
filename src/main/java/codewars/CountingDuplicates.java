@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class CountingDuplicates {
 
     public static int duplicateCount(String text) {
-        HashMap<Integer, Integer> map = new HashMap();
+        HashMap<Integer, Integer> map = new HashMap<>();
         int sumVal = 0;
         byte[] bytes = text.toLowerCase().getBytes();
         for (int b : bytes) {
