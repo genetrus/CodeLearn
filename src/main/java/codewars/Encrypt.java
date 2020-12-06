@@ -15,7 +15,7 @@ public class Encrypt {
                     sb.append(" ");
                 } else if (s.length() == 2) {
                     sb.append(s.charAt(1)).append(" ");
-                } else if (s.length() > 2) {
+                } else {
                     secondChar = s.charAt(1);
                     lastChar = s.charAt(s.length() - 1);
                     sb.append(lastChar).append(s, 2, s.length() - 1).append(secondChar).append(" ");
