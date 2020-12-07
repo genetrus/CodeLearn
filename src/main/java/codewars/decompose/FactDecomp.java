@@ -5,7 +5,29 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FactDecomp {
+
     public static String decomp(int n) {
+        int[] exponentsOfPrimes = new int[n + 1];
+        while (n > 1) {
+            int base = n--;
+            for (int i = 2; i <= Math.sqrt(base); i++) {
+                if (base % i == 0) {
+                    base /= i;
+                    exponentsOfPrimes[i]++;
+                    i = 1;
+                }
+            }
+            exponentsOfPrimes[base]++;
+        }
+        StringBuilder result = new StringBuilder();
+        for (int i = 2; i < exponentsOfPrimes.length; i++) {
+            if (exponentsOfPrimes[i] == 0) continue;
+            if (exponentsOfPrimes[i] == 1) result.append(i + " * ");
+            if (exponentsOfPrimes[i] > 1) result.append(i + "^" + exponentsOfPrimes[i] + " * ");
+        }
+        return result.substring(0, result.length() - 3);
+    }
+    /*public static String decomp(int n) {
         int exponent;
         BigInteger power;
         int prime = 2;
@@ -62,7 +84,7 @@ public class FactDecomp {
                 return false;
         }
         return true;
-    }
+    }*/
 }
 
 
