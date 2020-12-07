@@ -32,13 +32,13 @@ public class FactDecomp {
     }
 
     private static int getExponent(BigInteger factorial, int prime) {
-        int expontnt = 0;
+        int power = 0;
         BigInteger temp = factorial;
         while (remaindIsZero(temp, prime)) {
-            expontnt++;
+            power++;
             temp = temp.divide(BigInteger.valueOf(prime));
         }
-        return expontnt;
+        return power;
     }
 
     private static boolean remaindIsZero(BigInteger divident, int divisor) {
