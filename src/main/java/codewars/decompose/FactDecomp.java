@@ -12,6 +12,7 @@ public class FactDecomp {
             int base = n--;
             for (int i = 2; i <= Math.sqrt(base); i++) {
                 if (base % i == 0) {
+                    System.out.println(base);
                     base /= i;
                     exponentsOfPrimes[i]++;
                     i = 1;
