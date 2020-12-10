@@ -1,11 +1,16 @@
 package codewars;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import static java.util.stream.Stream.of;
+import java.util.Arrays;
+import java.util.Comparator;
 
 public class Order {
+    public static String order(String words) {
+        return Arrays.stream(words.split(" "))
+                .sorted(Comparator.comparing(s -> Integer.valueOf(s.replaceAll("\\D", ""))))
+                .reduce((a, b) -> a + " " + b).get();
+    }
+}
+/*public class Order {
 
     public static String order(String words) {
         if (words.length() == 0) {
@@ -27,4 +32,4 @@ public class Order {
         }
         return String.join(" ", orderWords);
     }
-}
+}*/
